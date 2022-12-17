@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-position: fixed;
+}
+body{
+    display: flex;
+    background: url('https://lolstatic-a.akamaihd.net/rso-login-page/3.2.35/assets/valorant_desktop_background_2x.jpg');
+    background-position: fixed; 
+    background-size: cover;
+    width: 100%;
+    height: auto; 
+    background-repeat: no-repeat; 
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    background-attachment: fixed;
+}
+#sign{
+    width: 430px;
+    height: 550px;
+    display: flex;
+    align-items: start;
+    background-color: white;
+    position: relative; 
+    justify-content: center;
+    margin: 20px;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.up > div{
+    margin: 10px 0 0 0;
+}
+
+#enter{
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-family: 'Neue Frutiger World ru', sans-serif;
+    align-items: center;
+}
+#h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+}
+
+#foot{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+
+.inputBox{
+    position:relative;
+    width: 250px;
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: whitesmoke;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 0.5em;
+    color: black;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+    color: red;
+    transform: translateX(10px) translateY(10px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    letter-spacing: 0.2em;
+}
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 1px solid red
+} 
+
+.image{
+    display: flex;
+}
+.image > button{
+    margin: 10px 20px 20px 0;
+    width: 55px;
+    height: 25px;
+    background-color: green;
+}
+
+#btn-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quest{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#quest > div > a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Neue Frutiger World ru', sans-serif;
+    font-weight: 400;
+}
+#quest > div > a:hover{
+    color: black;
+}
+
+#footer-ul{
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    font-family: 'Neue Frutiger World ru', sans-serif;
+    letter-spacing: 0.08px;
+    line-height: 110%;
+    color: rgba(249,249,249,0.65);
+}
+#footer-ul > div{
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#footer-info{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#footer-info > div > p{
+    font-family: 'Neue Frutiger World ru', sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    margin-left: 40px;
+    color: rgba(249,249,249,0.6);
+}
