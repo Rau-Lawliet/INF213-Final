@@ -7,7 +7,8 @@
 body{
     display: flex;
     background: url('https://lolstatic-a.akamaihd.net/rso-login-page/3.2.35/assets/valorant_desktop_background_2x.jpg');
-    background-position: fixed; 
+
+    background-position: center; 
     background-size: cover;
     width: 100%;
     height: auto; 
@@ -119,7 +120,6 @@ body{
     margin-top: 10px;
     border-color: #8e44ad;
     border-radius: 0;
-    color: #8e44ad;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -128,6 +128,10 @@ body{
     width: 80px;
     height: 80px;
     border-radius: 30px;
+  }
+  .conf-button > a{
+    text-decoration: none;
+    color: black;
   }
   .conf-button:after {
     content: '';

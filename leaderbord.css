@@ -14,21 +14,37 @@
     color: white;
 }
 
+#main-div{
+    background-color: #ece8e1;
+}
 #search{
     display: flex;
-    background-color: white;
     max-width: 100%;
     height: 150px;
     align-items: center;
     justify-content: center;
-    font-family: DINNextW1G,arial,georgia,sans-serif;
+    font-family: arial,georgia,sans-serif;
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
 }
 
-#search > input{
+#input-box{
     margin-left: 15px;
+    max-width: 30.8rem;
+    position: relative;
+    width: 100%;
+    background-color: #dbd9d2;
+    border: 1px solid #8b978f;
+}
+
+#input-box > input{
+    padding: 2rem 5rem 2rem 2rem;
+    width: 100%;
+    border: 1px solid #8b978f;
+    background-color: #dbd9d2;;
+    color: #768079;
+    font-family: inherit
 }
 
 .grids{
