@@ -26,12 +26,12 @@ body{
     background-color: white;
     position: relative; 
     justify-content: center;
-    margin: 20px;
+    margin: 30px;
 }
 .up{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .up > div{
     margin: 10px 0 0 0;
@@ -104,21 +104,55 @@ body{
 .image{
     display: flex;
 }
-.image > button{
-    margin: 10px 20px 20px 0;
-    width: 55px;
-    height: 25px;
-    background-color: green;
+.imagees{
+    width: 40px;
+    height: 40px;
+    margin: 20px 30px 20px 0;
 }
-
 #btn-next{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.conf-button {
+    margin-top: 10px;
+    border-color: #8e44ad;
+    border-radius: 0;
+    color: #8e44ad;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: color 150ms ease-in-out;
+    transition: color 150ms ease-in-out;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+  }
+  .conf-button:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #8e44ad;
+    z-index: -1;
+    -webkit-transition: width 150ms ease-in-out;
+    transition: width 150ms ease-in-out;
+  }
+  .conf-button:hover {
+    color: #fff;
+  }
+  .conf-button:hover:after {
+    width: 110%;
+  }
+
 #quest{
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,9 +160,9 @@ body{
 }
 #quest > div > a{
     text-decoration: none;
-    color: #333;
+    color: grey;
     font-family: 'Neue Frutiger World ru', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 #quest > div > a:hover{
     color: black;
