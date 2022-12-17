@@ -4,6 +4,33 @@
     list-style: 0;
 }
 
+#first-div{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://playvalorant.com/assets/images/leaderboards/leaderboards-hero-banner.jpg');
+    background-position: 50% top;
+    width: 100%;
+    height: 76%;
+    color: white;
+}
+
+#search{
+    display: flex;
+    background-color: white;
+    max-width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    font-family: DINNextW1G,arial,georgia,sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+#search > input{
+    margin-left: 15px;
+}
+
 .grids{
     display: grid;
     grid-template-columns: 0.5fr 2fr 1.5fr;
