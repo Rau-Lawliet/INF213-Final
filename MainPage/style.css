@@ -146,6 +146,16 @@
     color: #dbd9d2;
     transition: 1s;
 }
+.ratings{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.rating-img{
+    margin-left: -40%;
+    object-fit: cover;
+    width: 180%;
+}
 @media screen and (max-width: 1200px) {
     .fifth{
         display: none;
