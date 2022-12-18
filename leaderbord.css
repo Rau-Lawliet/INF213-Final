@@ -14,6 +14,15 @@
     color: white;
 }
 
+#first-div > div{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 25%;
+    padding-left: 90px;
+}
+
 #main-div{
     background-color: #ece8e1;
 }
@@ -47,12 +56,75 @@
     font-family: inherit
 }
 
-.grids{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 1.5fr;
-    grid-row-gap: 10px;
-    grid-column-gap: 10px;
+.lead-div{
+    display: flex;
+    flex-direction: column;
 }
-.grids > div{
-    background-color: aqua;
+
+#elements{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#elements > div{
+    background-color: #0f1923;
+    margin-right: 3px;
+    font-family: DINNextW05-Medium,arial,georgia,sans-serif;
+}
+
+#left-element{
+    max-width: 13rem;
+    width: 9.5%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#middle-element{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+#middle-element > div{
+    margin: 5px 0 0 0;
+}
+
+#right-element{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#right-element > div{
+    margin: 10px 0 0 0;
+}
+
+#rank{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#position{
+    display: flex;
+    flex-direction: column;
+}
+
+#first{
+    display: flex;
+
 }

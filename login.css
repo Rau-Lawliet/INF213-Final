@@ -7,7 +7,6 @@
 body{
     display: flex;
     background: url('https://lolstatic-a.akamaihd.net/rso-login-page/3.2.35/assets/valorant_desktop_background_2x.jpg');
-
     background-position: center; 
     background-size: cover;
     width: 100%;
@@ -41,7 +40,6 @@ body{
 #enter{
     font-weight: 700;
     letter-spacing: -0.02em;
-    font-family: 'Neue Frutiger World ru', sans-serif;
     align-items: center;
 }
 #h3{
