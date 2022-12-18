@@ -167,6 +167,7 @@
     color: #dbd9d2;
     transition: 1s;
 }
+
 .ratings{
     margin-top: 20px;
     width: 100%;
@@ -181,7 +182,6 @@
     color: red;
     transition: 1s;
 }
-
 .rating-panel{
     max-height: 50px;
     height: 7vh;
@@ -194,6 +194,7 @@
     outline: #0f1923 solid 1px;
     background-color: #39b54a;
 }
+
 .line1{
     position: absolute;
     min-width: 2px;
@@ -203,12 +204,16 @@
     margin-left: 10%;
 }
 
-@media screen and (max-width: 1200px) {
-    .fifth{
-        display: none;
-    }
+.footer{
+    margin-top: 15%;
+    background-color: #0f1923;
+    min-height: 30vh;
+    width: 100%;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: red;
 }
-
 @media screen and (max-width: 1000px) {
     .fourth{
         display: none;
