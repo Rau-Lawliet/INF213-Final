@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ff9c9c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 *{
     font-family: Oswald, sans-serif;
     margin: 0;
@@ -149,13 +170,39 @@
 .ratings{
     margin-top: 20px;
     width: 100%;
-    overflow: hidden;
 }
 .rating-img{
     margin-left: -40%;
     object-fit: cover;
-    width: 180%;
+    width: 140%;
 }
+.rating-panel:hover{
+    background-color: red;
+    color: red;
+    transition: 1s;
+}
+
+.rating-panel{
+    max-height: 50px;
+    height: 7vh;
+    font-size: 2vw;
+    margin-top: -20%;
+    margin-left: -55%;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    outline: #0f1923 solid 1px;
+    background-color: #39b54a;
+}
+.line1{
+    position: absolute;
+    min-width: 2px;
+    max-width: 2px;
+    height: 200vh;
+    background-color: #0f1923;
+    margin-left: 10%;
+}
+
 @media screen and (max-width: 1200px) {
     .fifth{
         display: none;
@@ -214,5 +261,13 @@
         width: 150px;
         height: 50px;
         font-size: 10px;
+    }
+    .line1{
+        position: absolute;
+        min-width: 2px;
+        max-width: 2px;
+        height: 150vh;
+        background-color: #0f1923;
+        margin-left: 10%;
     }
 }
