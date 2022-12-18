@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.panel{
+    display: flex;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt-panel{
+    font-size: 1.5vw;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+}
+.riot-logo-card{
+    position: relative;
+    display: inline-block;
+}
+.riot-logo-card .riot-logo2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.riot-logo-card:hover .riot-logo2{
+    display: inline;
+}
+.play-btn{
+
+    width: 90px;
+    color: white;
+    margin: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 10px;
+}
+.valo-logo{
+    width: 90px;
+}
+
+.navbar{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.riot-logo2{
+    height: 90px;
+}
+.riot-logo{
+    height: 90px;
+}
+.hover-div:hover{
+    background-color: rgb(95, 95, 95);
+    border-radius: 5px;
+}
+.breaker-after-nav{
+    width: 100%;
+    min-height: 2px;
+    max-height: 2px;
+    background-color: #fff;
+}
+.hover-div{
+    padding: 10px;
+}
+.global{
+    width: 45px;
+}
+.valo-vid-main{
+    height: 800px;
+    width: 100%;
+}
+.valo-vid{
+    width: 100%;
+    min-height: 800px;
+}
