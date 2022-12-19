@@ -202,3 +202,89 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.8rem;
 }
+
+
+#pre-footer{
+    background-color: #292929;
+    margin-top: 70px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 24px;
+}
+
+#pre-footer > div{
+    padding: 8px 16px;
+    font-family: "Neue Frutiger World",Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .08em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#pre-footer > div:hover{
+    background: rgba(128,128,128,.3);
+    border-radius: 6.4px;
+    transition: all .4s linear;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG');
+    padding: 0px 0px 48px 0px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+}
+
+#footer > div{
+    margin-top: 20px;
+}
+
+#val-image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#history{  
+    display: flex;
+    max-width: 100%;
+    width: 800px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#post-footer{
+    margin-top: 70px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 24px;
+}
+
+#post-footer > div{
+    padding: 8px 16px;
+    font-family: "Neue Frutiger World",Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .08em;
+}
+
+#post-footer > div:hover{
+    background: rgba(128,128,128,.3);
+    border-radius: 6.4px;
+    transition: all .4s linear;
+}
