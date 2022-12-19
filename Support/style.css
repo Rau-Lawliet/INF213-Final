@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ff9c9c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+*{
+    font-family: Oswald, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.panel{
+    display: flex;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt-panel{
+    font-size: 1.5vw;
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+}
+.riot-logo-card{
+    margin: 0 20px;
+}
+.logo:hover{
+    fill: red;
+}
+.play-btn{
+    width: 90px;
+    color: white;
+    margin: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 10px;
+}
+.valo-logo{
+    width: 90px;
+}
+.navbar{
+    position: relative;
+    z-index: 9999;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.riot-logo2{
+    height: 90px;
+}
+.riot-logo{
+    height: 90px;
+}
+.hover-div:hover{
+    background-color: rgb(95, 95, 95);
+    border-radius: 5px;
+}
+.centered-logo{
+    display: none;
+    width: 90px;
+}
+.gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    min-width: 80px;
+    min-height: 80px;
+}
+.card{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.main-txt{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.thirdd{
+    background-color: #39b54a;
+}
+.thirdd .gray{
+    background-color: #39b54a;
+}
+.secondd{
+    background-color: #8e44ad;
+}
+.secondd .gray{
+    background-color: #8e44ad;
+}
+.default-txt{
+    font-size: 15px;
+}
+.breaker-after-nav{
+    width: 100%;
+    min-height: 2px;
+    max-height: 2px;
+    background-color: #fff;
+}
+.four-imgs{
+    display: flex;
+    margin: 20% 0;
+    justify-content: center;
+}
+.info img{
+    width: 80px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+.footer{
+    background-color: #0f1923;
+    min-height: 40vh;
+    width: 100%;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: red;
+}
+
+@media screen and (max-width: 1000px) {
+    .fourth{
+        display: none;
+    }
+    .default-txt{
+        font-size: 1.5vw;
+    }
+    .main-txt{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 785px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .txt-above-valo{
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        margin-bottom: -10%;
+        font-size: 10px;
+    }
+    .panel{
+        display: none;
+    }
+    .hover-div{
+        display: none;
+    }
+    .play-btn{
+        scale: 1.2;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .centered-logo{
+        display: inline;
+    }
+    .valo-logo{
+        display: none;
+
+    }
+    .txt-above-valo{
+        margin: 0;
+        font-size: 2vw;
+    }
+    .valo-txt{
+        display: none;
+    }
+    .news-cards{
+        flex-wrap: wrap;
+    }
+    .news-card{
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .txt-bottom-valo-btn{
+        width: 150px;
+        height: 50px;
+        font-size: 10px;
+    }
+    .info2{
+        display: none;
+    }
+    .line1{
+        position: absolute;
+        min-width: 2px;
+        max-width: 2px;
+        height: 150vh;
+        background-color: #0f1923;
+        margin-left: 10%;
+    }
+}
