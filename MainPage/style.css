@@ -199,21 +199,22 @@
     position: absolute;
     min-width: 2px;
     max-width: 2px;
-    height: 200vh;
+    height: 180vh;
     background-color: #0f1923;
     margin-left: 10%;
 }
 
 .footer{
-    margin-top: 15%;
+    margin-top: 16%;
     background-color: #0f1923;
-    min-height: 30vh;
+    min-height: 40vh;
     width: 100%;
     inset: 0;
     display: grid;
     place-items: center;
     color: red;
 }
+
 @media screen and (max-width: 1000px) {
     .fourth{
         display: none;
