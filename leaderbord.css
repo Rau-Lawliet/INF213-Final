@@ -5,63 +5,63 @@
 }
 
 .body{
-    font-family: arial,georgia,sans-serif;
+        font-family: arial,georgia,sans-serif;
 }
 
-    li {
+li {
         list-style: none;
-    }
+}
 
-   .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 5rem;
     background-color: #0f1923;
-  }
+}
   
-  .hamburger {
+.hamburger {
     display: none;
-  }
+}
   
-  .bar {
+.bar {
     display: block;
     width: 25px;
     height: 3px;
     margin: 5px auto;
     transition: all ease-in-out 0.3s;
     background-color: #0f1923;
-  }
+}
   
-  .nav-menu {
+.nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
-  .nav-item {
+.nav-item {
     margin-left: 5rem;
-  }
+}
   
-  .nav-link {
+.nav-link {
     font-size: 1.6rem;
     font-weight: 500;
     color: #ff4655;
     transition: all ease-in-out 0.2s;
-  }
+}
   
-  .nav-link:hover {
+ .nav-link:hover {
     letter-spacing: 2px;
-  }
+}
   
-  .nav-logo img {
+.nav-logo img {
     width: 3rem;
     transition: all ease-in-out 0.2s;
-  }
+}
   
-  .nav-logo img:hover {
+.nav-logo img:hover {
     transform: scale(1.2);
-  }
+}
   
 
 #welcome-text{
@@ -354,7 +354,7 @@ a{
     .bar{
         display: none;
     }
-    
+
 }
 
 @media all and (max-width: 1280px){
