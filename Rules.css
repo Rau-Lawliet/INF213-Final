@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem 5rem;
+background-color: #0f1923;
+height: 50px;
+}
+
+.hamburger {
+display: none;
+}
+
+.bar {
+display: block;
+width: 25px;
+height: 3px;
+margin: 5px auto;
+transition: all ease-in-out 0.3s;
+background-color: #0f1923;
+}
+
+.nav-menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-item {
+margin-left: 5rem;
+}
+
+.nav-link {
+font-size: 1.6rem;
+font-weight: 500;
+color: #ff4655;
+transition: all ease-in-out 0.2s;
+}
+
+.nav-link:hover {
+letter-spacing: 2px;
+}
+
+
+#header-image{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb3556c43040176d4/5ed07f8398ef630b1d7c0fac/VAL_Community_Code_Banner.jpg');
+    background-size: cover;
+    background-position: 10px bottom 10px top;
+}
+
+main{
+    background-color: #ece8e1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#date{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#date > div{
+    margin-left: 10px;
+}
+
+#news{
+    color: #ff4655;
+    text-transform: uppercase;
+}
+
+#info{
+    margin-left: calc(25% + .75rem);
+    margin-right: calc(16.66667% + 8rem);
+    padding-right: 0;
+    font-size: 0.9rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#info > p, li{
+    color: #768079;
+}
+
+#info > h1{
+    text-transform: uppercase;
+}
+
+#info > p, h1{
+    margin-top: 2rem;
+}
+
+ul{
+    margin: 2rem 0;
+}
+
+ul > li::before{
+    content: "./";
+    font-weight: 700;
+    color: #0f1923;
+    margin-right: 0.5rem;
+}
+
+#pre-footer{
+    background-color: #292929;
+    margin-top: 70px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 24px;
+}
+
+#pre-footer > div{
+    padding: 8px 16px;
+    font-family: "Neue Frutiger World",Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .08em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#pre-footer > div:hover{
+    background: rgba(128,128,128,.3);
+    border-radius: 6.4px;
+    transition: all .4s linear;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 48px 0px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    background-image: url('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG');
+}
+
+#footer > div{
+    margin-top: 20px;
+}
+
+#val-image{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#history{  
+    display: flex;
+    max-width: 100%;
+    width: 800px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#post-footer{
+    margin-top: 70px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 24px;
+}
+
+#post-footer > div{
+    padding: 8px 16px;
+    font-family: "Neue Frutiger World",Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .08em;
+}
+
+#post-footer > div:hover{
+    background: rgba(128,128,128,.3);
+    border-radius: 6.4px;
+    transition: all .4s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 850px){
+    .nav-menu{
+        display: none;
+    }
+    .bar{
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 1280px){
+    .nav-menu {
+      position: fixed;
+      left: 0;
+      top: -100vh;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #ff4655;
+      width: 100%;
+      height: 100vh;
+      padding: 50px 0;
+      text-align: center;
+      transition: 0.3s;
+      z-index: 10;
+    }
+  
+    .nav-link {
+      color: #0f1923;
+      font-weight: 500;
+      font-size: 3rem;
+    }
+  
+    .nav-menu.active {
+      top: 0;
+      z-index: 10;
+    }
+  
+    .nav-item {
+      margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+      z-index: 100;
+    }
+  
+    .hamburger.active {
+      position: fixed;
+      right: 8vh;
+    }
+  
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .bar.active {
+      background-color: #0f1923;
+    }
+}

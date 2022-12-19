@@ -52,17 +52,7 @@ li {
   
  .nav-link:hover {
     letter-spacing: 2px;
-}
-  
-.nav-logo img {
-    width: 3rem;
-    transition: all ease-in-out 0.2s;
-}
-  
-.nav-logo img:hover {
-    transform: scale(1.2);
-}
-  
+}  
 
 #welcome-text{
     max-width: calc(66.66667% - 2rem);
@@ -91,6 +81,7 @@ li {
 #main-div{
     background-color: #ece8e1;
 }
+
 #search{
     display: flex;
     max-width: 100%;
@@ -101,24 +92,6 @@ li {
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
-}
-
-#input-box{
-    margin-left: 15px;
-    max-width: 30.8rem;
-    position: relative;
-    width: 100%;
-    background-color: #dbd9d2;
-    border: 1px solid #8b978f;
-}
-
-#input-box > input{
-    padding: 2rem 5rem 2rem 2rem;
-    width: 100%;
-    border: 1px solid #8b978f;
-    background-color: #dbd9d2;;
-    color: #768079;
-    font-family: inherit
 }
 
 .lead-div{
