@@ -11,7 +11,7 @@
 #welcome-text{
     max-width: calc(66.66667% - 2rem);
     width: 100%;
-    font-size: 7rem;
+    font-size: 6.5rem;
     line-height: 1.05;
     font-family: Oswald,sans-serif;
     text-transform: uppercase;
@@ -159,9 +159,9 @@
     font-weight: 400;
 }
 
-#left-positiong > h3:last-child{
-    font-size: 2.5rem;
-    font-weight: 400;
+#left-position > #left-position-child{
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 #middle-position{
@@ -173,8 +173,19 @@
     background-color: hsla(47,11%,84%,.6);
 }
 
+#username{
+    padding-left: 7.9%; 
+    font-size: 1.2rem;
+    font-weight: 400;    
+}
+
 #username > h2{
     font-weight: 400;
+}
+
+#username > h2 > #span-text{
+    color: #888;
+
 }
 
 #right-position{
@@ -186,8 +197,8 @@
     background-color: lightgrey;
 }
 
-#username{
-    padding-left: 7.9%; 
-    font-size: 1.2rem;
-    font-weight: 400;    
+#right-position > div{
+    margin-right: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8rem;
 }

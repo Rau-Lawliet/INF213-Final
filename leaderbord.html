@@ -4,16 +4,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="leaderbord.css">
-    <link rel="stylesheet" href="leaderboard.js">
     <title>Таблица лидеров Valorant</title>
     <link rel="icon" href="https://static.techspot.com/images2/downloads/topdownload/2020/06/2020-06-09-ts3_thumbs-7fd.png">
 </head>
 <body>
     <div id="first-div">
             <div id="date"></div>
-            <div id="welcome-text">Таблица лидеров VALORANT</div>
+            <div id="welcome-text" class="anim">Таблица лидеров VALORANT</div>
     </div>
-    <div id="main-div">
+    <div id="main-div title">
         <div id="search">Искать в таблицах лидеров
             <div id="input-box">
                 <input type="search" name="" id="" placeholder="Имя#Метка">
@@ -39,7 +38,7 @@
                 <div style="color: #768079;">ONGOING</div>
             </div>
 
-            <div class="position">
+            <div class="position anim">
                 <!-- Here I make MVP player positiong -->
                 <div id="position-elements">
                     <div id="left-position"><h3>1</h3></div>
@@ -58,37 +57,142 @@
                  <!-- From here I want to make other players position -->
                  
                 <div id="position-elements">
-                    <div id="left-position"><h3>1</h3></div>
+                    <div id="left-position"><h3 id="left-position-child">2</h3></div>
                     <div id="middle-position">
                         <div style="display: flex; justify-content: center; align-items: center;">
-                            <img width="50px" height="50px" src="https://i.imgflip.com/6eer1g.png" alt="">
-                            <p style="font-size: 1.4rem;">1159</p>
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">1120</p>
                         </div>
-                        <div id="username"><h2>SEN zekken<span id="span-text">#5193</span></h2></div>
+                        <div id="username"><h2>RieNs<span id="span-text">#wagwn</span></h2></div>
                     </div>
                     <div id="right-position">
-                        <div>155</div>
+                        <div>142</div>
                         <div>GAMES WON</div>
                     </div>
                 </div>
                 <!---->
-                
                 <div id="position-elements">
-                    <div id="left-position"><h3>1</h3></div>
+                    <div id="left-position"><h3 id="left-position-child">3</h3></div>
                     <div id="middle-position">
                         <div style="display: flex; justify-content: center; align-items: center;">
-                            <img width="50px" height="50px" src="https://i.imgflip.com/6eer1g.png" alt="">
-                            <p style="font-size: 1.4rem;">1159</p>
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">1094</p>
                         </div>
-                        <div id="username"><h2>SEN zekken<span id="span-text">#5193</span></h2></div>
+                        <div id="username"><h2>KC Takas<span id="span-text">#Boss</span></h2></div>
                     </div>
                     <div id="right-position">
-                        <div>155</div>
+                        <div>140</div>
                         <div>GAMES WON</div>
                     </div>
                 </div>
+                <!---->
+                <div id="position-elements">
+                    <div id="left-position"><h3 id="left-position-child">4</h3></div>
+                    <div id="middle-position">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">1043</p>
+                        </div>
+                        <div id="username"><h2>SMB Izzy<span id="span-text">#Lyda</span></h2></div>
+                    </div>
+                    <div id="right-position">
+                        <div>135</div>
+                        <div>GAMES WON</div>
+                    </div>
+                </div>
+                <!---->
+                <div id="position-elements">
+                    <div id="left-position"><h3 id="left-position-child">5</h3></div>
+                    <div id="middle-position">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">1010</p>
+                        </div>
+                        <div id="username"><h2>KC Takas<span id="span-text">#Boss</span></h2></div>
+                    </div>
+                    <div id="right-position">
+                        <div>133</div>
+                        <div>GAMES WON</div>
+                    </div>
+                </div>
+                <!---->
+                <div id="position-elements">
+                    <div id="left-position"><h3 id="left-position-child">6</h3></div>
+                    <div id="middle-position">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">994</p>
+                        </div>
+                        <div id="username"><h2>krea6on<span id="span-text">#1337</span></h2></div>
+                    </div>
+                    <div id="right-position">
+                        <div>130</div>
+                        <div>GAMES WON</div>
+                    </div>
+                </div>
+                <!---->
+                <div id="position-elements">
+                    <div id="left-position"><h3 id="left-position-child">7</h3></div>
+                    <div id="middle-position">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">981</p>
+                        </div>
+                        <div id="username"><h2>disseased<span id="span-text">#999</span></h2></div>
+                    </div>
+                    <div id="right-position">
+                        <div>130</div>
+                        <div>GAMES WON</div>
+                    </div>
+                </div>
+                <!---->
+                <div id="position-elements">
+                    <div id="left-position"><h3 id="left-position-child">8</h3></div>
+                    <div id="middle-position">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">970</p>
+                        </div>
+                        <div id="username"><h2>Heretics AvovA<span id="span-text">#uwu</span></h2></div>
+                    </div>
+                    <div id="right-position">
+                        <div>128</div>
+                        <div>GAMES WON</div>
+                    </div>
+                </div>
+                <!---->
+                <div id="position-elements">
+                    <div id="left-position"><h3 id="left-position-child">9</h3></div>
+                    <div id="middle-position">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">968</p>
+                        </div>
+                        <div id="username"><h2>Liquid nAts<span id="span-text">#TATAR</span></h2></div>
+                    </div>
+                    <div id="right-position">
+                        <div>120</div>
+                        <div>GAMES WON</div>
+                    </div>
+                </div>
+                <!---->
+                <div id="position-elements">
+                    <div id="left-position"><h3 id="left-position-child">10</h3></div>
+                    <div id="middle-position">
+                        <div style="display: flex; justify-content: center; align-items: center;">
+                            <img width="40px" height="40px" src="https://i.imgflip.com/6eer1g.png" alt="">
+                            <p style="font-size: 1rem;">958</p>
+                        </div>
+                        <div id="username"><h2>Liquid Jamppi<span id="span-text">#1964</span></h2></div>
+                    </div>
+                    <div id="right-position">
+                        <div>117</div>
+                        <div>GAMES WON</div>
+                    </div>
+                </div>
+                <!---->
          </div>
-
     </div>
+    <script src="leaderboard.js"></script>
 </body>
 </html>

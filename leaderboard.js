@@ -1,4 +1,2 @@
-window.onload = function(){
-    let date = new Date();
-    document.getElementById('date').innerHTML = date;
-}
+let date = new Date();
+document.getElementById('date').innerHTML =  date.getUTCDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear();
